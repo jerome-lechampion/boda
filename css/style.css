@@ -19,6 +19,10 @@ body {
   background: #fff;
 }
 
+#map {
+  height: 85vh;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
