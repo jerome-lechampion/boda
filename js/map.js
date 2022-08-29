@@ -45,136 +45,147 @@ function initMap() {
   };
   const features = [
     {
-      position: new google.maps.LatLng(48.718000, 2.604979),
+      position: new google.maps.LatLng(48.718, 2.604979),
       type: "van",
-      title: "Van",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Van</h4>' +
-      "Un van proposera des allers retours entre les hôtels du" +
-      "<br />secteur et le château tout au long de la soirée" +
-      "</div>"
+      title: "Minibus",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Van</h4>' +
+        "Un minbus realizará idas y venidas entre el castillo" +
+        "<br />y los hoteles de la zona a lo largo de toda la noche." +
+        "</div>",
     },
     {
       position: new google.maps.LatLng(48.799637, 2.470217),
       type: "bus",
-      title: "Bus",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Bus</h4>' +
-      "<p><b>Horaire Aller:</b> 16h00 : Mairie -> Château" +
-      "<br /><b>Horaire Retour:</b> 03h00 : Château -> Bercy" +
-      "</div>"
+      title: "Autobús reservado para la boda",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Bus</h4>' +
+        "<p><b>Horario de ida:</b> 16h00 : Ayuntamiento -> Castillo" +
+        "<br /><b>Horario de vuelta:</b> 03h00 : Castillo -> Bercy" +
+        "</div>",
     },
     {
       position: new google.maps.LatLng(49.009213, 2.562554),
       type: "airport",
-      title: "Aéroport",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Aéroport Charles De Gaulle</h4>' +
-      "<p><b>Companie:</b> Vueling" +
-      '<br /><a href="https://Vueling.com" target="_blanck">' +
-      "Vueling.com</a> " +
-      '<br /><b>Transport:</b> Ligne de RER B' +
-      "</p>" +
-      "</div>"
+      title: "Aeropuerto",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Aeropuerto Charles De Gaulle</h4>' +
+        "<p><b>Compañía:</b> Vueling" +
+        '<br /><a href="https://Vueling.com" target="_blanck">' +
+        "Vueling.com</a> " +
+        "<br /><b>Transporte:</b> Línea de RER B" +
+        "</p>" +
+        "</div>",
     },
     {
-      position: new google.maps.LatLng(48.727862, 2.367850),
+      position: new google.maps.LatLng(48.727862, 2.36785),
       type: "airport",
-      title: "Aéroport",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Aéroport d\'Orly</h4>' +
-      "<p><b>Companie:</b> Transavia" +
-      '<br /><a href="https://transavia.com" target="_blanck">' +
-      "Transavia.com</a> " +
-      '<br /><b>Transport:</b> OrlyBus ou Taxi' +
-      "</p>" +
-      "</div>"
+      title: "Aeropuerto",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Aeropuerto de Orly</h4>' +
+        "<p><b>Compañía:</b> Transavia" +
+        '<br /><a href="https://transavia.com" target="_blanck">' +
+        "Transavia.com</a> " +
+        "<br /><b>Transporte:</b> OrlyBus, Orlyval o Taxi" +
+        "</p>" +
+        "</div>",
     },
     {
-      position: new google.maps.LatLng(48.731780, 2.610285),
+      position: new google.maps.LatLng(48.73178, 2.610285),
       type: "hotel",
-      title: "Hôtel",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Hôtel Abbaye du golf de Lésigny</h4>' +
-      "<p><b>Prix moyen:</b> 100€/nuit " +
-      '<br /><b>Transport:</b> Voiture uniquement, Parking gratuit sur place' +
-      '<br /><a href="https://www.hotelabbayedugolf.com/fr/index.html" target="_blanck">' +
-      "hotelabbayedugolf.com</a> " +
-      "</p>" +
-      "</div>"
+      title: "Hotel",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Hôtel Abbaye du golf de Lésigny</h4>' +
+        "<p><b>Precio medio:</b> 100€/noche " +
+        "<br /><b>Transporte:</b> Coche únicamente, Párking gratuito en el hotel" +
+        '<br /><a href="https://www.hotelabbayedugolf.com/fr/index.html" target="_blanck">' +
+        "hotelabbayedugolf.com</a> " +
+        "</p>" +
+        "</div>",
     },
     {
-      position: new google.maps.LatLng(48.703431, 2.599490),
+      position: new google.maps.LatLng(48.703431, 2.59949),
       type: "hotel",
-      title: "Hôtel",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Kyriad Brie Comte Robert</h4>' +
-      "<p><b>Prix moyen:</b> 70€/nuit " +
-      '<br /><b>Transport:</b> Voiture uniquement, Parking gratuit sur place' +
-      '<br /><a href="https://brie-comte-robert.kyriad.com/fr-fr/" target="_blanck">' +
-      "brie-comte-robert.kyriad.com</a> " +
-      "</p>" +
-      "</div>"
+      title: "Hotel",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Kyriad Brie Comte Robert</h4>' +
+        "<p><b>Precio medio:</b> 70€/noche " +
+        "<br /><b>Transporte:</b> Coche únicamente, Párking gratuito en el hotel" +
+        '<br /><a href="https://brie-comte-robert.kyriad.com/fr-fr/" target="_blanck">' +
+        "brie-comte-robert.kyriad.com</a> " +
+        "</p>" +
+        "</div>",
     },
     {
-      position: new google.maps.LatLng(48.832050, 2.387082),
+      position: new google.maps.LatLng(48.83205, 2.387082),
       type: "hotel",
-      title: "Hôtel",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Hôtel Adagio Paris Bercy</h4>' +
-      "<p><b>Prix moyen:</b> 100€/nuit " +
-      '<br /><b>Transport:</b> Ligne de Métro 14' +
-      '<br /><a href="https://www.adagio-city.com/fr/hotel-6789-aparthotel-adagio-paris-bercy-village/index.shtml" target="_blanck">' +
-      "adagio-city.com</a> " +
-      "</p>" +
-      "</div>"
+      title: "Hotel",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Hôtel Adagio Paris Bercy</h4>' +
+        "<p><b>Precio medio:</b> 100€/noche " +
+        "<br /><b>Transporte:</b> Metro 14, Bus 24" +
+        '<br /><a href="https://www.adagio-city.com/fr/hotel-6789-aparthotel-adagio-paris-bercy-village/index.shtml" target="_blanck">' +
+        "adagio-city.com</a> " +
+        "</p>" +
+        "</div>",
     },
     {
       position: new google.maps.LatLng(48.847107, 2.342384),
       type: "park",
-      title: "Parking",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Parking de la rue Soufflot</h4>' +
-      "<p>4€/Heure " +
-      "</p>" +
-      "</div>"
+      title: "Párking",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Párking de la calle Soufflot</h4>' +
+        "<p>4€/Hora " +
+        "</p>" +
+        "</div>",
     },
     {
-      position: new google.maps.LatLng(48.846211, 2.344600),
+      position: new google.maps.LatLng(48.846211, 2.3446),
       type: "mairie",
-      title: "Mairie",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Mairie du 5ème arrondissement</h4>' +
-      "<p>Cérémonie à 14h00 " +
-      '<br /><b>Transport:</b> RER B station Luxembourg ou' +
-      '<br />Metro 10 station Cardinal Lemoine ou' +
-      '<br />Metro 7 station Place Monge' +
-      '<br />Parking payant à proximité' +
-      "</p>" +
-      "</div>"
+      title: "Ayuntamiento",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Ayuntamiento del distrito 5</h4>' +
+        "<p>Ceremonia a las XXh" +
+        "<br /><b>Transporte:</b> RER B estación Luxembourg o" +
+        "<br />Metro 10 estación Cardinal Lemoine o" +
+        "<br />Metro 7 estación Place Monge" +
+        "<br />Coche: párking de pago en la calle Soufflot" +
+        "</p>" +
+        "</div>",
     },
     {
       position: new google.maps.LatLng(48.846613, 2.347456),
       type: "iglesia",
-      title: "Église",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Église de Saint Étienne du Mont</h4>' +
-      "<p>Cérémonie à 15h00 " +
-      '<br />Parking payant à proximité' +
-      "</p>" +
-      "</div>"
+      title: "Iglesia",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Iglesia de Saint Étienne du Mont</h4>' +
+        "<p>Ceremonia a las XXh " +
+        "<br />Párking de pago en la calle Soufflot" +
+        "</p>" +
+        "</div>",
     },
     {
       position: new google.maps.LatLng(48.743427, 2.613943),
       type: "castle",
-      title: "Château",
-      content: '<div id="content">' +
-      '<h4 id="firstHeading" class="firstHeading">Château de Lésigny</h4>' +
-      "<p>Cocktail + Dîner à partir de 17h30 " +
-      '<br /><b>Transport:</b> Voiture ou navette' +
-      '<br />Parking gratuit sur place' +
-      "</p>" +
-      "</div>"
+      title: "Castillo",
+      content:
+        '<div id="content">' +
+        '<h4 id="firstHeading" class="firstHeading">Castillo de Lésigny</h4>' +
+        "<p>Cóctel y cena a partir de las 17h30 " +
+        "<br /><b>Transporte:</b> Coche o autobús de la boda" +
+        "<br />Párking gratuito en el recinto del castillo" +
+        "</p>" +
+        "</div>",
     },
   ];
 
@@ -184,12 +195,12 @@ function initMap() {
       position: features[i].position,
       map: map,
       title: features[i].title,
-			icon: {
+      icon: {
         url: icons[features[i].type].icon,
-				size: new google.maps.Size(64, 64),
-				origin: new google.maps.Point(0, 0),
-				anchor: new google.maps.Point(32, 32)
-			}
+        size: new google.maps.Size(64, 64),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(32, 32),
+      },
     });
     const infowindow = new google.maps.InfoWindow({
       content: features[i].content,
@@ -204,9 +215,9 @@ function initMap() {
   }
 
   const flightPlanCoordinates2 = [
-    {lat:48.846613, lng:2.347456},
-    { lat: 48.743427, lng:2.613943 },
-    { lat: 48.832050, lng:2.387082 },
+    { lat: 48.846613, lng: 2.347456 },
+    { lat: 48.743427, lng: 2.613943 },
+    { lat: 48.83205, lng: 2.387082 },
   ];
   const flightPath2 = new google.maps.Polyline({
     path: flightPlanCoordinates2,
@@ -219,9 +230,9 @@ function initMap() {
   flightPath2.setMap(map);
 
   const flightPlanCoordinates = [
-    {lat:48.703431, lng:2.599490},
-    {lat:48.731780, lng:2.610285},
-    { lat: 48.743427, lng:2.613943 },
+    { lat: 48.703431, lng: 2.59949 },
+    { lat: 48.73178, lng: 2.610285 },
+    { lat: 48.743427, lng: 2.613943 },
   ];
   const flightPath = new google.maps.Polyline({
     path: flightPlanCoordinates,
