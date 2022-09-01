@@ -58,7 +58,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(48.799637, 2.470217),
       type: "bus",
-      title: "Autobús reservado para la boda",
+      title: "Autobús contratado por los novios para la boda",
       content:
         '<div id="content">' +
         '<h4 id="firstHeading" class="firstHeading">Bus</h4>' +
@@ -133,7 +133,7 @@ function initMap() {
         '<h4 id="firstHeading" class="firstHeading">Aparthotel Adagio Paris Bercy</h4>' +
         "<p><b>Precio medio:</b> 165€/noche para 4, 270€/noche para 8" +
         "<br /><b>Transporte:</b> Metro 14, Bus 24." +
-        "<br />Autobús para volver del castillo" +
+        "<br />Autobús gratuito contratado por los novios para volver del castillo" +
         '<br /><a href="https://www.adagio-city.com/fr/hotel-6789-aparthotel-adagio-paris-bercy-village/index.shtml" target="_blanck">' +
         "adagio-city.com</a> " +
         "</p>" +
@@ -148,7 +148,7 @@ function initMap() {
         '<h4 id="firstHeading" class="firstHeading">Hôtel Ibis Bercy Village</h4>' +
         "<p><b>Precio medio:</b> 130€/noche" +
         "<br /><b>Transporte:</b> Metro 14, Bus 24." +
-        "<br />Autobús para volver del castillo" +
+        "<br />Autobús gratuito contratado por los novios para volver del castillo" +
         '<br /><a href="https://all.accor.com/hotel/1743/index.fr.shtml#origin=accor" target="_blanck">' +
         "accor.com</a> " +
         "</p>" +
@@ -163,7 +163,7 @@ function initMap() {
         '<h4 id="firstHeading" class="firstHeading">Hôtel Campanile Paris Bercy</h4>' +
         "<p><b>Precio medio:</b> 130€/noche" +
         "<br /><b>Transporte:</b> Metro 14, Bus 24." +
-        "<br />Autobús para volver del castillo" +
+        "<br />Autobús gratuito contratado por los novios para volver del castillo" +
         '<br /><a href="https://www.hotelbercy.com/" target="_blanck">' +
         "hotelbercy.com</a> " +
         "</p>" +
