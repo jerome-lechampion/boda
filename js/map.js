@@ -191,6 +191,7 @@ function initMap() {
         "<br /><b>Transporte:</b> RER B estación Luxembourg o" +
         "<br />Metro 10 estación Cardinal Lemoine o" +
         "<br />Metro 7 estación Place Monge" +
+        '<br />Bus 24' +
         "<br />Coche: párking de pago en la calle Soufflot" +
         "</p>" +
         "</div>",
@@ -203,6 +204,10 @@ function initMap() {
         '<div id="content">' +
         '<h4 id="firstHeading" class="firstHeading">Iglesia de Saint Étienne du Mont</h4>' +
         "<p>Ceremonia a las XXh " +
+        "<br /><b>Transporte:</b> RER B estación Luxembourg o" +
+        "<br />Metro 10 estación Cardinal Lemoine o" +
+        "<br />Metro 7 estación Place Monge" +
+        '<br />Bus 24' +
         "<br />Párking de pago en la calle Soufflot" +
         "</p>" +
         "</div>",
