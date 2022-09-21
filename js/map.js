@@ -187,7 +187,7 @@ function initMap() {
       content:
         '<div id="content">' +
         '<h4 id="firstHeading" class="firstHeading">Ayuntamiento del distrito 5</h4>' +
-        "<p>Ceremonia a las XXh" +
+        "<p>Ceremonia a las 14h" +
         "<br /><b>Transporte:</b> RER B estación Luxembourg o" +
         "<br />Metro 10 estación Cardinal Lemoine o" +
         "<br />Metro 7 estación Place Monge" +
@@ -203,7 +203,7 @@ function initMap() {
       content:
         '<div id="content">' +
         '<h4 id="firstHeading" class="firstHeading">Iglesia de Saint Étienne du Mont</h4>' +
-        "<p>Ceremonia a las XXh " +
+        "<p>Ceremonia a las 16h " +
         "<br /><b>Transporte:</b> RER B estación Luxembourg o" +
         "<br />Metro 10 estación Cardinal Lemoine o" +
         "<br />Metro 7 estación Place Monge" +
@@ -219,7 +219,7 @@ function initMap() {
       content:
         '<div id="content">' +
         '<h4 id="firstHeading" class="firstHeading">Castillo de Lésigny</h4>' +
-        "<p>Cóctel y cena a partir de las 17h30 " +
+        "<p>Cóctel y cena a partir de las 18h00 " +
         "<br /><b>Transporte:</b> Coche o autobús de la boda" +
         "<br />Párking gratuito en el recinto del castillo" +
         "</p>" +
